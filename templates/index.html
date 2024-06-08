@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Albania Tourist Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <!-- Map container -->
+    <div id="map"></div>
+
+    <!-- Menu -->
+    <div id="menu">
+        <button onclick="showMap('historical')">Historical Sites</button>
+        <button onclick="showMap('beaches')">Beaches</button>
+        <button onclick="showMap('mountains')">Mountain Routes</button>
+        <a href="/login.html">Login</a>
+        <a href="/register.html">Register</a>
+    </div>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

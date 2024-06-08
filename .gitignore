@@ -1,0 +1,27 @@
+# Virtual environment directories
+env/
+venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment variables file
+*.env
+
+# IDE configuration files
+.vscode/
+.idea/
+
+# Log files
+*.log
+
+# Database files
+*.sqlite3
+
+# Compiled files
+*.pyc
+*.pyo
